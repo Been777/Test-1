@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a351014c-961b-4ad6-ae6f-2e8efb82e402" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/team13/fantree/aop/LoggingAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/team13/fantree/aop/LoggingAspect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +75,31 @@
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.UserTest">
+  <component name="RunManager" selected="Gradle.PostTest">
+    <configuration name="PostTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.team13.fantree.entity.PostTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="UserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -140,9 +154,6 @@
     <configuration name="comment-test | 댓글 조회" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/comment-test.http" index="5" requestIdentifier="댓글 조회" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="user-test | 인증 유저 변환" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/user-test.http" index="3" requestIdentifier="인증 유저 변환" runType="Run single request">
-      <method v="2" />
-    </configuration>
     <configuration name="FanTreeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <envs>
         <env name="JWT_SECRET_KEY" value="7Iqk7YyM66W07YOA7L2U65Sp7YG065+9U3ByaW5n6rCV7J2Y7Yqc7YSw7LWc7JuQ67mI7J6F64uI64ukLg==" />
@@ -157,20 +168,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.PostTest" />
       <item itemvalue="Gradle.UserTest" />
       <item itemvalue="Gradle.UserTest.test4" />
       <item itemvalue="HTTP Request.comment-test | 댓글 수정" />
       <item itemvalue="HTTP Request.comment-test | 댓글 조회" />
-      <item itemvalue="HTTP Request.user-test | 인증 유저 변환" />
       <item itemvalue="Spring Boot.FanTreeApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PostTest" />
         <item itemvalue="Gradle.UserTest" />
         <item itemvalue="Gradle.UserTest.test4" />
         <item itemvalue="HTTP Request.comment-test | 댓글 조회" />
         <item itemvalue="HTTP Request.comment-test | 댓글 수정" />
-        <item itemvalue="HTTP Request.user-test | 인증 유저 변환" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +202,7 @@
       <option name="presentableId" value="Default" />
       <updated>1718276415249</updated>
       <workItem from="1718276416286" duration="1562000" />
-      <workItem from="1718529943542" duration="13369000" />
+      <workItem from="1718529943542" duration="15725000" />
     </task>
     <servers />
   </component>
