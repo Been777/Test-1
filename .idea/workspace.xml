@@ -5,6 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a351014c-961b-4ad6-ae6f-2e8efb82e402" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/team13/fantree/config/JpaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/team13/fantree/dto/LoginRequestDtoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/team13/fantree/dto/ProfileRequestDtoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/team13/fantree/dto/SignUpRequestDtoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/team13/fantree/dto/WithDrawUserRequestDtoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/team13/fantree/entity/CommentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/team13/fantree/entity/PostTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/team13/fantree/entity/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/team13/fantree/filter/MockSpringSecurityFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +70,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.import",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -133,7 +143,7 @@
       <option name="presentableId" value="Default" />
       <updated>1718276415249</updated>
       <workItem from="1718276416286" duration="1562000" />
-      <workItem from="1718529943542" duration="2659000" />
+      <workItem from="1718529943542" duration="4969000" />
     </task>
     <servers />
   </component>
