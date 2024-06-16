@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a351014c-961b-4ad6-ae6f-2e8efb82e402" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a351014c-961b-4ad6-ae6f-2e8efb82e402" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +39,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Build HelloUnitTest.executor": "Run",
+    "Gradle.PostTest.executor": "Run",
     "Gradle.UserTest.executor": "Debug",
     "Gradle.UserTest.test4.executor": "Run",
     "HTTP Request.comment-test | 댓글 수정.executor": "Run",
@@ -202,7 +201,7 @@
       <option name="presentableId" value="Default" />
       <updated>1718276415249</updated>
       <workItem from="1718276416286" duration="1562000" />
-      <workItem from="1718529943542" duration="15725000" />
+      <workItem from="1718529943542" duration="16189000" />
     </task>
     <servers />
   </component>

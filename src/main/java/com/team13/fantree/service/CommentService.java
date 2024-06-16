@@ -1,10 +1,5 @@
 package com.team13.fantree.service;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import org.springframework.stereotype.Service;
-
 import com.team13.fantree.dto.CommentRequestDto;
 import com.team13.fantree.dto.CommentResponseDto;
 import com.team13.fantree.entity.Comment;
@@ -16,10 +11,13 @@ import com.team13.fantree.exception.NotFoundException;
 import com.team13.fantree.exception.UserErrorCode;
 import com.team13.fantree.repository.CommentRepository;
 import com.team13.fantree.repository.PostRepository;
-
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Service;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Slf4j
 @Service

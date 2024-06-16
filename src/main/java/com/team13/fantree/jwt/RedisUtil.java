@@ -1,12 +1,11 @@
 package com.team13.fantree.jwt;
 
-import java.time.Duration;
-
+import lombok.RequiredArgsConstructor;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.stereotype.Service;
 
-import lombok.RequiredArgsConstructor;
+import java.time.Duration;
 
 @Service
 @RequiredArgsConstructor

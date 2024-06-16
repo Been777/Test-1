@@ -1,28 +1,20 @@
 package com.team13.fantree.service;
 
-import java.util.Objects;
-import java.util.Optional;
-
-import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-
 import com.team13.fantree.dto.LikeResponseDto;
 import com.team13.fantree.entity.Comment;
 import com.team13.fantree.entity.ContentEnumType;
 import com.team13.fantree.entity.Like;
 import com.team13.fantree.entity.Post;
-import com.team13.fantree.exception.CommonErrorCode;
-import com.team13.fantree.exception.DuplicateException;
-import com.team13.fantree.exception.LikeErrorCode;
-import com.team13.fantree.exception.MismatchException;
-import com.team13.fantree.exception.NotFoundException;
-import com.team13.fantree.exception.PostErrorCode;
-import com.team13.fantree.exception.SelfLikeException;
+import com.team13.fantree.exception.*;
 import com.team13.fantree.repository.CommentRepository;
 import com.team13.fantree.repository.LikeRepository;
 import com.team13.fantree.repository.PostRepository;
-
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import java.util.Objects;
+import java.util.Optional;
 
 @RequiredArgsConstructor
 @Service

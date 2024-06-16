@@ -1,10 +1,5 @@
 package com.team13.fantree.service;
 
-import java.util.Optional;
-
-import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.stereotype.Service;
-
 import com.team13.fantree.dto.ProfileRequestDto;
 import com.team13.fantree.dto.ProfileResponseDto;
 import com.team13.fantree.dto.SignUpRequestDto;
@@ -14,10 +9,13 @@ import com.team13.fantree.exception.MismatchException;
 import com.team13.fantree.exception.NotFoundException;
 import com.team13.fantree.exception.UserErrorCode;
 import com.team13.fantree.repository.UserRepository;
-
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.stereotype.Service;
+
+import java.util.Optional;
 
 @Slf4j
 @Service

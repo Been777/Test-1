@@ -1,14 +1,13 @@
 package com.team13.fantree.security;
 
-import java.util.ArrayList;
-import java.util.Collection;
-
+import com.team13.fantree.entity.User;
+import com.team13.fantree.entity.UserStatusEnum;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import com.team13.fantree.entity.User;
-import com.team13.fantree.entity.UserStatusEnum;
+import java.util.ArrayList;
+import java.util.Collection;
 
 public class UserDetailsImpl implements UserDetails {
 

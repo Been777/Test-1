@@ -1,20 +1,18 @@
 package com.team13.fantree.controller;
 
+import com.team13.fantree.dto.EmailCheckRequestDto;
+import com.team13.fantree.dto.EmailRequestDto;
+import com.team13.fantree.exception.UserErrorCode;
+import com.team13.fantree.security.UserDetailsImpl;
+import com.team13.fantree.service.MailSendService;
+import jakarta.validation.Valid;
+import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.team13.fantree.dto.EmailCheckRequestDto;
-import com.team13.fantree.dto.EmailRequestDto;
-import com.team13.fantree.exception.UserErrorCode;
-import com.team13.fantree.security.UserDetailsImpl;
-import com.team13.fantree.service.MailSendService;
-
-import jakarta.validation.Valid;
-import lombok.RequiredArgsConstructor;
 
 @RestController
 @RequiredArgsConstructor

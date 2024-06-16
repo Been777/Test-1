@@ -1,10 +1,9 @@
 package com.team13.fantree.dto;
 
-import java.time.LocalDateTime;
-
 import com.team13.fantree.entity.Comment;
-
 import lombok.Getter;
+
+import java.time.LocalDateTime;
 
 @Getter
 public class CommentResponseDto {

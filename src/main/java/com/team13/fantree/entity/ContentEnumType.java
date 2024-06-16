@@ -1,11 +1,10 @@
 package com.team13.fantree.entity;
 
-import java.util.Objects;
-
 import com.team13.fantree.exception.LikeErrorCode;
 import com.team13.fantree.exception.MismatchException;
-
 import lombok.Getter;
+
+import java.util.Objects;
 
 @Getter
 public enum ContentEnumType {
