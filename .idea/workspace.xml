@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a351014c-961b-4ad6-ae6f-2e8efb82e402" name="Changes" comment="" />
+    <list default="true" id="a351014c-961b-4ad6-ae6f-2e8efb82e402" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/team13/fantree/config/JpaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/team13/fantree/dto/LoginRequestDtoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/team13/fantree/dto/ProfileRequestDtoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/team13/fantree/dto/SignUpRequestDtoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/team13/fantree/dto/WithDrawUserRequestDtoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/team13/fantree/entity/CommentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/team13/fantree/entity/PostTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/team13/fantree/entity/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/team13/fantree/filter/MockSpringSecurityFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,21 +26,43 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2hp1syBCNQBSoctqV89SNzQePTg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Build HelloUnitTest.executor": "Run",
+    "HTTP Request.comment-test | 댓글 수정.executor": "Run",
+    "HTTP Request.comment-test | 댓글 조회.executor": "Run",
+    "HTTP Request.user-test | 로그인#1.executor": "Run",
+    "HTTP Request.user-test | 유정 등록.executor": "Run",
+    "HTTP Request.user-test | 인증 유저 변환.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.FanTreeApplication.executor": "Run",
+    "git-widget-placeholder": "test",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/t2023-m0001/Documents/GitHub/HelloUnitTest",
     "node.js.detected.package.eslint": "true",
@@ -37,9 +70,62 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.import",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
+  <component name="RunManager" selected="Spring Boot.FanTreeApplication">
+    <configuration name="comment-test | 댓글 수정" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/comment-test.http" index="3" requestIdentifier="댓글 수정" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="comment-test | 댓글 조회" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/comment-test.http" index="5" requestIdentifier="댓글 조회" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="user-test | 인증 유저 변환" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/user-test.http" index="3" requestIdentifier="인증 유저 변환" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="user-test | 로그인#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/user-test.http" index="2" requestIdentifier="로그인#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="user-test | 유정 등록" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/user-test.http" requestIdentifier="유정 등록" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="FanTreeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <envs>
+        <env name="JWT_SECRET_KEY" value="7Iqk7YyM66W07YOA7L2U65Sp7YG065+9U3ByaW5n6rCV7J2Y7Yqc7YSw7LWc7JuQ67mI7J6F64uI64ukLg==" />
+        <env name="DB_URL" value="jdbc:mysql://localhost:3306/fantree" />
+        <env name="DB_USER" value="root" />
+        <env name="DB_PW" value="1234qwer" />
+      </envs>
+      <module name="FanTree.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.team13.fantree.FanTreeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="HTTP Request.comment-test | 댓글 수정" />
+      <item itemvalue="HTTP Request.comment-test | 댓글 조회" />
+      <item itemvalue="HTTP Request.user-test | 로그인#1" />
+      <item itemvalue="HTTP Request.user-test | 유정 등록" />
+      <item itemvalue="HTTP Request.user-test | 인증 유저 변환" />
+      <item itemvalue="Spring Boot.FanTreeApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.comment-test | 댓글 조회" />
+        <item itemvalue="HTTP Request.comment-test | 댓글 수정" />
+        <item itemvalue="HTTP Request.user-test | 인증 유저 변환" />
+        <item itemvalue="HTTP Request.user-test | 로그인#1" />
+        <item itemvalue="HTTP Request.user-test | 유정 등록" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -57,10 +143,15 @@
       <option name="presentableId" value="Default" />
       <updated>1718276415249</updated>
       <workItem from="1718276416286" duration="1562000" />
+      <workItem from="1718529943542" duration="4969000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init !!" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>

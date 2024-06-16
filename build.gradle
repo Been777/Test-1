@@ -53,9 +53,11 @@ dependencies {
     implementation 'org.springframework.data:spring-data-redis:2.7.5'
     implementation 'io.lettuce:lettuce-core:6.2.1.RELEASE'
 
-
     // Redis
     implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.springframework.security:spring-security-test'
 
 }
 
