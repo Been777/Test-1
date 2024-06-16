@@ -1,8 +1,7 @@
 package com.team13.fantree.controller;
 
-import java.util.List;
-import java.util.stream.Collectors;
-
+import com.team13.fantree.exception.*;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatusCode;
@@ -14,16 +13,8 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import com.team13.fantree.exception.CommonErrorCode;
-import com.team13.fantree.exception.DuplicateException;
-import com.team13.fantree.exception.ErrorCode;
-import com.team13.fantree.exception.ErrorResponse;
-import com.team13.fantree.exception.MismatchException;
-import com.team13.fantree.exception.NotFoundException;
-import com.team13.fantree.exception.SelfLikeException;
-import com.team13.fantree.exception.UserErrorCode;
-
-import lombok.extern.slf4j.Slf4j;
+import java.util.List;
+import java.util.stream.Collectors;
 
 @Slf4j
 @RestControllerAdvice

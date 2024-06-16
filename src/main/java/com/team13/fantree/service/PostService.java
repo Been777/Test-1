@@ -1,14 +1,5 @@
 package com.team13.fantree.service;
 
-import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
-
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-
 import com.team13.fantree.dto.PostRequestDto;
 import com.team13.fantree.dto.PostResponseDto;
 import com.team13.fantree.entity.Post;
@@ -18,9 +9,16 @@ import com.team13.fantree.exception.NotFoundException;
 import com.team13.fantree.exception.PostErrorCode;
 import com.team13.fantree.exception.UserErrorCode;
 import com.team13.fantree.repository.PostRepository;
-
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 @Slf4j
 @Service

@@ -1,18 +1,16 @@
 package com.team13.fantree.security;
 
-import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
-import org.springframework.stereotype.Service;
-
 import com.team13.fantree.entity.User;
 import com.team13.fantree.entity.UserStatusEnum;
 import com.team13.fantree.exception.MismatchException;
 import com.team13.fantree.exception.NotFoundException;
 import com.team13.fantree.exception.UserErrorCode;
 import com.team13.fantree.repository.UserRepository;
-
 import lombok.RequiredArgsConstructor;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.stereotype.Service;
 
 @Service
 @RequiredArgsConstructor

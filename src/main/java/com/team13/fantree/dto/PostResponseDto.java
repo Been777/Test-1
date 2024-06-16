@@ -1,10 +1,9 @@
 package com.team13.fantree.dto;
 
-import java.time.LocalDateTime;
-
 import com.team13.fantree.entity.Post;
-
 import lombok.Getter;
+
+import java.time.LocalDateTime;
 
 @Getter
 public class PostResponseDto {

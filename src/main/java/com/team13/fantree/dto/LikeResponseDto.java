@@ -2,7 +2,6 @@ package com.team13.fantree.dto;
 
 import com.team13.fantree.entity.ContentEnumType;
 import com.team13.fantree.entity.Like;
-
 import lombok.Getter;
 
 @Getter

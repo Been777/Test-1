@@ -1,10 +1,9 @@
 package com.team13.fantree.repository;
 
-import java.util.List;
-
+import com.team13.fantree.entity.Comment;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.team13.fantree.entity.Comment;
+import java.util.List;
 
 public interface CommentRepository extends JpaRepository<Comment, Long> {
 
