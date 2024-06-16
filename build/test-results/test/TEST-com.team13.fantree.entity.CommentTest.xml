@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.team13.fantree.entity.CommentTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-06-16T15:35:45" hostname="t2023-m0001s-MacBook-Air.local" time="0.035">
+  <properties/>
+  <testcase name="Comment Create Success" classname="com.team13.fantree.entity.CommentTest" time="0.032"/>
+  <testcase name="Comment Update Success" classname="com.team13.fantree.entity.CommentTest" time="0.001"/>
+  <testcase name="Up Like Count Success" classname="com.team13.fantree.entity.CommentTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

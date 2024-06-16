@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a351014c-961b-4ad6-ae6f-2e8efb82e402" name="Changes" comment="" />
+    <list default="true" id="a351014c-961b-4ad6-ae6f-2e8efb82e402" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/team13/fantree/entity/CommentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/team13/fantree/entity/CommentTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/team13/fantree/entity/PostTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/team13/fantree/entity/PostTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/team13/fantree/filter/MockSpringSecurityFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/team13/fantree/filter/MockSpringSecurityFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.team13.fantree.entity.PostTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.team13.fantree.entity.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.team13.fantree.entity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.team13.fantree.entity.PostTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,8 +55,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Build HelloUnitTest.executor": "Run",
+    "Gradle.CommentTest.executor": "Run",
     "Gradle.PostTest.executor": "Run",
-    "Gradle.UserTest.executor": "Debug",
+    "Gradle.UserTest.executor": "Run",
     "Gradle.UserTest.test4.executor": "Run",
     "HTTP Request.comment-test | 댓글 수정.executor": "Run",
     "HTTP Request.comment-test | 댓글 조회.executor": "Run",
@@ -74,7 +91,31 @@
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.PostTest">
+  <component name="RunManager" selected="Gradle.CommentTest">
+    <configuration name="CommentTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.team13.fantree.entity.CommentTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="PostTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -147,9 +188,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="comment-test | 댓글 수정" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/comment-test.http" index="3" requestIdentifier="댓글 수정" runType="Run single request">
-      <method v="2" />
-    </configuration>
     <configuration name="comment-test | 댓글 조회" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/comment-test.http" index="5" requestIdentifier="댓글 조회" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -167,20 +205,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.CommentTest" />
       <item itemvalue="Gradle.PostTest" />
       <item itemvalue="Gradle.UserTest" />
       <item itemvalue="Gradle.UserTest.test4" />
-      <item itemvalue="HTTP Request.comment-test | 댓글 수정" />
       <item itemvalue="HTTP Request.comment-test | 댓글 조회" />
       <item itemvalue="Spring Boot.FanTreeApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PostTest" />
+        <item itemvalue="Gradle.CommentTest" />
         <item itemvalue="Gradle.UserTest" />
+        <item itemvalue="Gradle.PostTest" />
         <item itemvalue="Gradle.UserTest.test4" />
         <item itemvalue="HTTP Request.comment-test | 댓글 조회" />
-        <item itemvalue="HTTP Request.comment-test | 댓글 수정" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +239,7 @@
       <option name="presentableId" value="Default" />
       <updated>1718276415249</updated>
       <workItem from="1718276416286" duration="1562000" />
-      <workItem from="1718529943542" duration="16189000" />
+      <workItem from="1718529943542" duration="16717000" />
     </task>
     <servers />
   </component>
