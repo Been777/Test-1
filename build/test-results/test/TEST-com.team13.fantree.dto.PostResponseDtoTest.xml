@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.team13.fantree.dto.PostResponseDtoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-06-17T00:52:14" hostname="t2023-m0001s-MacBook-Air.local" time="0.027">
+  <properties/>
+  <testcase name="PostResponseDto Initialization Success" classname="com.team13.fantree.dto.PostResponseDtoTest" time="0.027"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
